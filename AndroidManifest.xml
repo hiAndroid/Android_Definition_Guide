@@ -5,8 +5,8 @@
     android:versionName="1.0-SNAPSHOT" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +20,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+                android:name=".activity.MobileMainActivity"
+                android:label="@string/title_activity_mobile_main"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity.TabActivity"
+                android:label="@string/title_activity_tab" >
+        </activity>
+        <activity
+                android:name=".activity.TabSwipeActivity"
+                android:label="@string/title_activity_tab_swipe" >
+        </activity>
+        <activity
+                android:name=".activity.SwipeStripActivity"
+                android:label="@string/title_activity_swipe_strip" >
+        </activity>
+        <activity
+                android:name=".activity.DropdownActivity"
+                android:label="@string/title_activity_dropdown" >
+        </activity>
+
     </application>
 
 </manifest>
