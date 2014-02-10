@@ -46,6 +46,13 @@
                 android:label="@string/title_activity_dropdown" >
         </activity>
 
+        <activity
+                android:name=".transmitdata.StartActivity"></activity>
+
+        <activity
+                android:name=".transmitdata.ReturnActivity">
+        </activity>
+
     </application>
 
 </manifest>
